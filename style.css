@@ -1,0 +1,37 @@
+#t{
+
+
+    margin: 40px;
+    float: left;
+    width: 50%;
+    background-color: lightgrey;
+   
+}
+
+
+#sec{
+
+    margin: 40px;
+    float: right;
+    width: 30%;
+
+    background-color: lightsalmon;
+
+   
+} 
+h3{
+
+
+
+    text-align: center;
+}
+
+
+
+.selections{
+
+
+
+
+    color: brown;
+}

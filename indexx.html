@@ -1,0 +1,93 @@
+
+<html>
+<head> <title>ASSIGHNMENT 1</title>
+<script src="./jsss.js"></script>   
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  
+  <h6>Ayesha Aslam SP18-BCS-123 </H6>
+  <h3> JavaScript, Event Handling, Bindings and DOM - Lab Task 1</h3> 
+
+
+<div id="container">
+
+
+    <div id="t">
+
+
+<table  border="1" id="table">
+          
+            <caption>List Of Persons</caption>
+
+
+
+<tr>
+<th>Name</th>
+<th>Gender</th>
+<th>Age</th>
+<th>City</th>
+<th>Action</th>
+</tr>
+
+<tbody id="body">
+</tbody>
+
+</table>
+</div>
+
+
+<div id="sec">
+
+
+    <h3> Add/Update person from </h3>
+
+Name <input id="name" name="name" type="text" required> 
+
+
+
+<br><br>
+
+gender  
+
+
+    <input id="male" type="radio"  name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input id="female" type="radio"  name="gender" value="female" required>
+    <label for="female">Female</label> <br>
+
+<br>
+Age <input id="age" type="text" name="age" required> <br>
+
+    <br>
+    <select name="city" id="city">
+        <option value="Choose a city">Choose a city</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Sheikhupura">Sheikhupura</option>
+        <option value="Bahawalpur">Bahawalpur</option>
+        <option value="Faisalabad">Faisalabad</option>
+        <option value="Gujranwala">Gujranwala</option>
+        <option value="Peshawar">Peshawar</option>
+        <option value="Sialkot">Sialkot</option>
+        <option value="Gujrat">Gujrat</option>
+        <option value="Kasur">Kasur</option>
+        <option value="Okara">Okara</option>
+        <option value="Sahiwal">Sahiwal</option>
+     
+    </select>
+    
+<br><br>
+
+
+    <input type="submit" class='selections' name="reset" onclick="reset();" value="Reset">
+    <input type="submit" class='selections' name="add" id="add" onclick="addRow();" value="Add">
+    <input type="submit" class='selections' name="update" onclick="updateRow();" value="Update">
+ 
+
+
+</div>
+</div>
+
+</body>
+</html>
